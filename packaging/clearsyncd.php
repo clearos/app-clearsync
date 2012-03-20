@@ -11,16 +11,16 @@ require_once $bootstrap . '/bootstrap.php';
 // T R A N S L A T I O N S
 ///////////////////////////////////////////////////////////////////////////////
 
-clearos_load_language('clearsyncd');
+clearos_load_language('clearsync');
 
 ///////////////////////////////////////////////////////////////////////////////
 // C O N F I G L E T
 ///////////////////////////////////////////////////////////////////////////////
 
 $configlet = array(
-	'title' => lang('clearsyncd_app_name'),
-	'package' => 'clearsyncd',
+	'title' => lang('clearsync_app_name'),
+	'package' => 'clearsync',
 	'process_name' => 'clearsyncd',
 	'pid_file' => '/var/run/clearsync/clearsyncd.pid',
-	'reloadable' => TRUE,
+	'reloadable' => FALSE,
 );
