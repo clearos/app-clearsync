@@ -1,7 +1,7 @@
 
 Name: app-clearsync
 Epoch: 1
-Version: 1.0.9
+Version: 1.0.10
 Release: 1%{dist}
 Summary: Synchronization and Events - APIs and install
 License: LGPLv3
