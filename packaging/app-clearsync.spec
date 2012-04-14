@@ -1,9 +1,9 @@
 
 Name: app-clearsync
 Epoch: 1
-Version: 1.0.10
+Version: 1.1.0
 Release: 1%{dist}
-Summary: Synchronization and Events - APIs and install
+Summary: Synchronization and Events - Core
 License: LGPLv3
 Group: ClearOS/Libraries
 Source: app-clearsync-%{version}.tar.gz
@@ -13,7 +13,7 @@ Buildarch: noarch
 The Synchronization and Events engine provides hooks into to operating system for creating system events and synchronizing files across multiple systems.
 
 %package core
-Summary: Synchronization and Events - APIs and install
+Summary: Synchronization and Events - Core
 Requires: app-base-core
 Requires: clearsync
 
