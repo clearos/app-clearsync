@@ -3,9 +3,9 @@
 /**
  * ClearSyncd server class.
  *
- * @category   Apps
- * @package    ClearSync
- * @subpackage Libraries
+ * @category   apps
+ * @package    clearsync
+ * @subpackage libraries
  * @author     ClearFoundation <developer@clearfoundation.com>
  * @copyright  2012 ClearFoundation
  * @license    http://www.gnu.org/copyleft/lgpl.html GNU Lesser General Public License version 3 or later
@@ -66,9 +66,9 @@ clearos_load_library('base/Daemon');
 /**
  * ClearSyncd server class.
  *
- * @category   Apps
- * @package    ClearSync
- * @subpackage Libraries
+ * @category   apps
+ * @package    clearsync
+ * @subpackage libraries
  * @author     ClearFoundation <developer@clearfoundation.com>
  * @copyright  2012 ClearFoundation
  * @license    http://www.gnu.org/copyleft/lgpl.html GNU Lesser General Public License version 3 or later
