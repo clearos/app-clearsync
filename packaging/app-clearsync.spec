@@ -1,7 +1,7 @@
 
 Name: app-clearsync
 Epoch: 1
-Version: 1.1.0
+Version: 1.6.5
 Release: 1%{dist}
 Summary: Synchronization and Events - Core
 License: LGPLv3
@@ -54,7 +54,6 @@ exit 0
 %files core
 %defattr(-,root,root)
 %exclude /usr/clearos/apps/clearsync/packaging
-%exclude /usr/clearos/apps/clearsync/tests
 %dir /usr/clearos/apps/clearsync
 /usr/clearos/apps/clearsync/deploy
 /usr/clearos/apps/clearsync/language
